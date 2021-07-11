@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+    font-family: "Ubuntu",
+    sans-serif;
+    background-image: linear-gradient(160deg, #ff9a9e, #fad0c4 99%, #fad0c4 100%);
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 380px;
+    margin: 80px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px 0px rgba(51, 51, 51, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: 500;
+    margin:1rem 0 2rem 0;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 8px;
+    border-radius: 30px;
+    box-shadow: 0px 7px 33px -4px rgba(0, 0, 0, 0.14);
+}
+
+input{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 200px;
+    letter-spacing: 0.3px;
+    font-family: "poppins",sans-serif;
+}
+.submit{
+    background-color: rgb(52, 231, 52);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+}
+h2{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 25px;
+    font-weight: 500;
+}
+ul{
+    list-style: none;
+}
+ul .item-collection{
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: 1px solid #e0dfdf;
+    padding: 8px 10px 8px 15px;
+    /* transition: .7s; */
+}
+ul .item-collection:hover{
+    background-color: #fad0c4;
+}
+ul .item-collection:hover .delete{
+    background-color: crimson;
+    color: #fff;
+}
+ul .item-collection .delete{
+    background-color: #fff;
+    color: crimson;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .7s;
+    border-radius: 50%;
+}
